@@ -1,6 +1,7 @@
-function Heading() {
-    return(
-        <h1>This is Heading from component</h1>
-    )   };
-    
-    export default Heading;
+function Heading(props) {
+    return (
+        <h1>Hello, {props.firstname}</h1>
+    )
+}
+
+export default Heading;

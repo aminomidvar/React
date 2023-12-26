@@ -6,7 +6,9 @@ function App() {
   return (
     
     <div className="App">
-      <Heading />
+      <Heading firstname="Bob"/>
+      <Heading firstname="Second"/>
+
      </div>
     
   );
